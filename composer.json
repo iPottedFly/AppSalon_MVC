@@ -1,0 +1,23 @@
+{
+    "name": "emiliano/appsalon",
+    "description": "AppSalon PHP-SQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emiliano Mendoza",
+            "email": "mendozaemiliano710@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
